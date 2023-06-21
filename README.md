@@ -1,19 +1,3 @@
-how to use:
-
-main()
-
-{
-
-hard_rst();
-
-lcd_init();
-
-lcd_clear(red);
-
-}
-
-///////////////
-
 pin connection:
 
 data0=>pd14
@@ -58,7 +42,9 @@ wr=>pd5
 
 rst=>pe3  active low
 
+
 im0:im1:im2 => 1:0:0 (if configurable)
+
 
 //////////////////////////////////////
 
