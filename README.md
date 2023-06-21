@@ -52,9 +52,12 @@ im0:im1:im2 => 1:0:0 (if configurable)
 introduction:
 
 Using this driver to test if otm8009a LCD module works.
+
 refresh rate is very low,about 10 secs every frame.
+
 partilly compatible with nt35510.
  
 driving otm8009a with stm32h750`s fmc may cause snow screen or rainbow screen,because dataX pins output wrong.
+
 when powered without FPC connected,backlight drive chip will burn out. 
 
