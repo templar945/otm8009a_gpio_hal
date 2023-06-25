@@ -1,5 +1,5 @@
 #include "stm32h7xx_hal.h"
-#include "lcd_gpio.h"
+#include "otm8009a_gpio.h"
 
 void hard_rst(void) {
 	HAL_GPIO_WritePin(GPIOE, GPIO_PIN_3, GPIO_PIN_RESET); //rst,active low
